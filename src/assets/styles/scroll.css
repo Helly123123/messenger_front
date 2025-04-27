@@ -1,0 +1,22 @@
+.message-list {
+  flex: 1;
+  padding: 46px;
+  overflow-y: auto;
+  background-color: var(--color-bg-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.message-list::-webkit-scrollbar {
+  width: 16px;
+}
+
+.message-list::-webkit-scrollbar-track {
+  background-color: #f9f9f9;
+}
+
+.message-list::-webkit-scrollbar-thumb {
+  background: #d1d1d1;
+  border-radius: 5px;
+}

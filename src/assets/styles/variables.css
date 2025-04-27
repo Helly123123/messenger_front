@@ -1,0 +1,52 @@
+:root {
+  /* Colors */
+  --color-primary: #4361ee;
+  --color-primary-light: #9fc7f8;
+  --color-primary-dark: #3f37c9;
+  --color-secondary: #3a0ca3;
+  --color-accent: #f72585;
+  --color-success: #4cc9f0;
+  --color-warning: #f8961e;
+  --color-danger: #ef233c;
+
+  /* Text */
+  --color-text: #2b2d42;
+  --color-text-light: #8d99ae;
+  --color-text-lighter: #edf2f4;
+
+  /* Backgrounds */
+  --color-bg: #ffffff;
+  --color-bg-secondary: #f8f9fa;
+  --color-bg-dark: #212529;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+  /* Borders */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 20px;
+  --border-radius-full: 9999px;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+
+  /* Typography */
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
